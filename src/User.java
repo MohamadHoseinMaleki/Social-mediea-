@@ -7,6 +7,7 @@ import java.util.List;
 @Builder
 
 public class User {
+
     private int UserId;
     private String name;
     private String familyName;
