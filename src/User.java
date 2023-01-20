@@ -6,7 +6,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @Builder
 
-public class User {
+public class User extends Account {
 
     private int UserId;
     private String name;

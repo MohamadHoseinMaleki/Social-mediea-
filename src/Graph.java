@@ -13,7 +13,7 @@ public class Graph<T> {
         map.put(s, new LinkedList<>());
     }
 
-    //the method adds an edge between source and destination
+    //the method adds an edge source and destination
     public void addNewEdge(T source, T destination, boolean bidirectional) {
         //
         if (!map.containsKey(source))
