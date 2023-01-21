@@ -4,7 +4,7 @@ import java.util.List;
 @Getter
 @Setter
 @RequiredArgsConstructor
-@Builder
+
 
 public class User extends Account {
 
@@ -15,7 +15,7 @@ public class User extends Account {
 
     private String university;
     private String reshte ;
-    private String locationHime;
+    private String location;
 
     List<String > Takhasos ;
 
