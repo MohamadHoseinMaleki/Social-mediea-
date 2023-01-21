@@ -4,7 +4,6 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -30,8 +29,6 @@ public class ReadFileJson {
                 //Iterate over employee array
                 employeeList.forEach( emp -> parseEmployeeObject( (JSONObject) emp ) );
 
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             } catch (org.json.simple.parser.ParseException e) {
@@ -39,7 +36,7 @@ public class ReadFileJson {
             }
         }
 
-        private   void parseEmployeeObject(JSONObject employee)  {
+        private void parseEmployeeObject(JSONObject employee)  {
             //Get employee object within list
             JSONObject employeeObject = (JSONObject) employee.get("employee");
 
