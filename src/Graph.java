@@ -26,13 +26,13 @@ public class Graph<T> {
         }
     }
 
-    //the method counts the number of vertices
-    public void countVertices() {
+
+    public void SizeVertices() {
         System.out.println("Total number of vertices: " + map.keySet().size());
     }
 
-    //the method counts the number of edges
-    public void countEdges(boolean bidirection) {
+
+    public void SizeEdges(boolean bidirection) {
         //variable to store number of edges
         int count = 0;
         for (T v : map.keySet()) {
@@ -80,6 +80,8 @@ public class Graph<T> {
         return (builder.toString());
     }
 }
+
+
 //creating a class in which we have implemented the driver code
 //    public class GraphImplementation
 //    {
