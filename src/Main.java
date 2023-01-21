@@ -12,7 +12,7 @@ public class Main {
 
 
         while (true) {
-            System.out.println("\tEnter number of your choice ??\n1_  login User\n2_ show profile\n3_ show list of user\n4_ Search user" + "\n5_ suggestion ");
+            System.out.println("\tEnter number of your choice ??\n1_  login User\n2_ show profile\n3_ show list of user\n4_ Search user" + "\n5_ suggestion"+ "\n6_ Exit");
             int manueinput = scan.nextInt();
             scan.nextLine();//scan.nextLine();
 
