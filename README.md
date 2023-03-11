@@ -10,7 +10,8 @@ by mohamad hossein maleki
 --■ java script
 
  
-  use java for main language 
+--■ Java
+
 
 
 its about suggestion some people in social mediea is Functional simulator inside LinkedIn or Instagram 
