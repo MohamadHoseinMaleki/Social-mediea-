@@ -1,6 +1,15 @@
 # Social-mediea-
 by mohamad hossein maleki 
 
+--■ html
+      --frame work :Boot strap.
+--■ css
+      --frame work :Boot strap.
+      
+--■ java script
+
+ 
+  use java for main language 
 
 
 its about suggestion some people in social mediea is Functional simulator inside LinkedIn or Instagram 
