@@ -20,3 +20,4 @@ its about suggestion some people in social mediea is Functional simulator inside
 
 whose logic and foundation is using **graph**  and **hashmap**
 
+
